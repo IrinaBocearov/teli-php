@@ -1,0 +1,20 @@
+{
+    "name": "teli/teli-php",
+    "type": "library",
+    "description": "Teli PHP SDK",
+    "authors": [
+        {
+            "name": "Joe Dulin",
+            "email": "joe@teli.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "php-curl-class/php-curl-class": "^8.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teli\\": "src/"
+        }
+    }
+}
